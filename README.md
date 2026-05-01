@@ -27,7 +27,7 @@ Then open:
 2. Replace the placeholder case studies in the `Selected work` section
 3. Replace the placeholder testimonials with real quotes
 4. Add real company names / logos only if you are comfortable making them public
-5. Current contact email: `mikeatherton.dev@gmail.com`
+5. Current contact email: `hello@mikeatherton.dev`
 
 ## Positioning
 
