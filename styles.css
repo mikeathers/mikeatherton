@@ -578,9 +578,9 @@ h3 {
 
 .contact-photo {
   display: block;
-  width: 88px;
-  height: 88px;
-  margin: 0 auto 18px;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 22px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--line-strong);
