@@ -25,7 +25,7 @@ html {
 
 body {
   margin: 0;
-  min-height: 100vh;
+  min-height: 100dvh;
   background:
     radial-gradient(circle at top center, rgba(255, 255, 255, 0.95), transparent 34%),
     linear-gradient(180deg, #fbfbfd 0%, #f1f1f4 100%);
@@ -82,18 +82,15 @@ a {
 }
 
 .hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+  gap: 48px;
+  padding: 68px;
   border: 1px solid var(--line);
   border-radius: 36px;
   background: var(--surface);
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(18px);
-}
-
-.hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
-  gap: 48px;
-  padding: 68px;
 }
 
 .hero-copy {
@@ -572,6 +569,11 @@ h3 {
 .contact-card {
   padding: 26px;
   background: rgba(255, 255, 255, 0.94);
+}
+
+.contact-buttons {
+  display: grid;
+  gap: 10px;
 }
 
 .note {

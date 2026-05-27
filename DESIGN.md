@@ -2,7 +2,7 @@
 
 This site uses a Vercel-inspired design direction from the `awesome-design-md` collection:
 
-- Vercel — "Black and white precision, Geist font"
+- Vercel: "Black and white precision, Geist font"
 - Source collection: https://github.com/VoltAgent/awesome-design-md
 
 ## Visual Direction
