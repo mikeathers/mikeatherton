@@ -576,6 +576,16 @@ h3 {
   gap: 10px;
 }
 
+.contact-photo {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line-strong);
+}
+
 .note {
   margin-top: 12px;
   font-size: 0.92rem;
