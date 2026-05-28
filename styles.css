@@ -6,6 +6,7 @@
   --line: rgba(15, 23, 42, 0.07);
   --line-strong: rgba(15, 23, 42, 0.12);
   --text: #161617;
+  --text-strong: #2a2a2e;
   --muted: #52525b;
   --faint: #8d8d93;
   --accent: #0071e3;
@@ -147,6 +148,21 @@ h3 {
 .contact-copy p,
 .note {
   color: var(--muted);
+}
+
+.lede,
+.service-body p,
+.principle-card p,
+.fit-card p,
+.signal-item,
+.intro-copy p:first-of-type {
+  font-weight: 500;
+  color: var(--text-strong);
+}
+
+.hero-strip span {
+  font-weight: 500;
+  color: var(--text);
 }
 
 .proof-subhead {
