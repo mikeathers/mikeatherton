@@ -516,6 +516,42 @@ h3 {
   background: rgba(255, 255, 255, 0.94);
 }
 
+.call-agenda {
+  margin: 4px 0 20px;
+}
+
+.call-agenda .meta {
+  margin-bottom: 12px;
+}
+
+.call-agenda ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.call-agenda li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--text-strong);
+  font-size: 0.96rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.call-agenda li::before {
+  content: "";
+  position: absolute;
+  top: 0.55em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
 .contact-buttons {
   display: grid;
   gap: 10px;
